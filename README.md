@@ -3,7 +3,7 @@
 地址： https://github.com/wsdo/miniprogram-qa.git 
 > 收录后，帮助更多的开发者
 
-## 小程序十万个为什么
+## 小程序常见问题
 ## 基础篇
 * [微信小程序文档地址在哪？](./guide/微信小程序文档地址在哪？.md)
 * [微信小程序开发工具怎么下载？](./guide/微信小程序开发工具怎么下载？.md)
@@ -16,11 +16,13 @@
 * [微信小程序写点击事件,并且在dom携带参数？](./guide/微信小程序写点击事件,并且在dom携带参数？.md)
 * 微信小程序怎么设置dom显示隐藏？
 * 微信小程序怎么让页面滚动和禁用滚动？
-### 在页面页面里面的.json 文件增加配置 disableScroll
-    默认 false，true: 禁用滚动
-    ```
-        "disableScroll": false
-    ```
+
+
+## 微信小程序怎么让页面滚动和禁用滚动？
+> 在页面页面里面的.json 文件增加配置 disableScroll 默认 false，true: 禁用滚动
+```
+    "disableScroll": false
+```
 * 样式为何不起作用?rpx为响应式的，px为固定值
 ## 组件篇
 ## 接口篇
